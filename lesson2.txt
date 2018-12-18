@@ -1,0 +1,34 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+	Você cria uma pasta .git no diretório selecionado, onde inicialmente não haverá commits. É necessário para que possamos fazer uso
+	das ferramentas do git.
+	
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+
+	É uma área para realizar e selecionar quais mudanças serão adicionadas ao próximo commit. Ela se torna muito útil e importante
+	visto que posso modificar vários arquivos e separar em vários commits.
+	
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+
+	Selecionando os arquivos que deseja serem confirmados para criar um commit lógico.
+	
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+
+	Você pode fazer experimentos e ainda manter o arquivo original salvo da mesma forma. Branches permitem que você mude um arquivo igual ao original.
+
+Como os diagramas ajudam a visualizar a estrutura de branches?
+
+	Diagramas são utilizados para aliviar a dificuldade em entender o programa após muitas mudanças, podemos então entender como funcionam os branches e visualizar
+	para onde cada commit aponta. 
+	
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+
+	Com isso teremos todas as commit dos dois branches juntos, o git é capaz de comparar os commits e ver qual tem alguma relevância para se ter na versão mesclada.
+	Representamos o diagrama assim pois ele é o que continua sendo a versão principal.
+	
+Quais são os prós e contras da mesclagem automática do Git vs sempre fazer mesclagens manualmente?
+
+	Fazer mesclagem automática é bem mais simples do que juntar códigos manualmente, porém não há um controle significativo das alterações que
+	irão para o código, podendo perder funções, resultando em bugs.
+	Fazendo a mesclagem manual você escolhe quais alterações irão para o arquivo e exclui as desnecessárias, mas como citado acima, a automática
+	é mais simples.
